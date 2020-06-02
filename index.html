@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
+    <style>
+		body {
+			background-color: gray;
+		}
+		p    {
+			color: black;
+		}
+		.stayhome {
+ 			background-color: gray;
+  			color: whitesmoke;
+  			padding: 20px;
+  			text-align: center;
+		}
+		#topic h1 {
+			color: black;
+			text-shadow: 2px 2px whitesmoke;
+			text-align: center;
+		}
+		.name {
+			color: white;
+			text-shadow: 2px 2px black;
+		}
+		.gitlab {
+ 			background-color: lightgray;
+  			color: white;
+  			padding: 20px;			
+		}
+		@media (max-width: 600px) {
+ 		div {
+    		width: 100%;
+    		height: auto;
+  			}
+		}
+	</style>
 </head>
 <body>
-    <div>Hello World Kamran</div>
+    <div class="stayhome">
+        <h2>
+        Hello World
+        <span class="name">Kamran Ahmed Khan</span>
+        Is Here
+        </h2>
+    </div>	
+    <div id="topic">
+        <h1>WHAT IS CICD?</h1>	
+    
+    <div class="gitLab">
+        <h3>CI (Continuous Integration)</h3>
+        <p>This service is a part of GitLab that build and test the software whenever developer pushes code to application.</p>
+    </div>
+    <div class="gitLab">
+        <h3>CD (Continuous Deployment)</h3>
+        <p>This is a software service that places the changes of every code in the production which results in every day deployment of production.</p>
+    </div><br>
+    <div class="stayhome">
+        <h2>
+        STAY SAFE
+        <span class="name">FROM COVID19</span>
+        STAY HOME
+        </h2>
+    </div>	
+    </div>
 </body>
 </html>
